@@ -1,0 +1,7 @@
+// Generate a list of 100 random numbers between 10-100 representing the age of the people.draw the bar graph.
+
+Nums = grand(1,100,"uin",10,100);
+x = [10,20,30,40,50,60,70,80,90,100] 
+histplot(x,Nums,normalization=%f); 
+xtitle("random-no","age-grp","freq") 
+ 
