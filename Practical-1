@@ -1,0 +1,9 @@
+//Generation of random number series using built-in-function and Congruential Random number Generation function.
+
+disp("Random Number Generation using Builtin function") 
+y1 = rand(5,1)
+disp(y1) 
+
+disp("Congruential Random Number Generation function") 
+y2 = grand(2,5,"bet",1,20)
+disp(y2) 
